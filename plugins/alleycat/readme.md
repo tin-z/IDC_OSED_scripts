@@ -7,9 +7,13 @@
   In ghidra we have the alleycat similar plugin 
   [call-Chain](https://github.com/tacnetsol/ghidra_scripts/blob/master/readmes/callchain.md).
 
-  - Note: only inter-procedural control flow reachability is supported.
+ - File: [alleycat.idc](./alleycat.idc)
 
-  - File: [alleycat.idc](./alleycat.idc)
+ - Notes: 
+
+    * Only inter-procedural control flow reachability is supported
+
+    * '4' press-key function does also output how [cfe_trace.py](https://github.com/tin-z/windbg-code-tracing/blob/main/cfe_trace.py) Pykd script should be invoked in order to perform code tracing with windbg.
 
 
 
@@ -32,7 +36,7 @@ Created temporary folder 'C:\Temp_ida'##########################################
 
 ```
 
- - example, press `"4"` key on IDA, then insert source and sink points
+ - example, press `'4'` key on IDA, then insert source and sink points
 
 ![op_4.gif](gifs/op_4.gif)
 
