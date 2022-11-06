@@ -12,4 +12,10 @@
   - Files: [make_code](./codatify_make_code.idc), [make_data](./codatify_make_data.idc)
 
 
+### usage
+
+ - On IDA select: File -> Script file
+
+![code.gif](./gifs/code.gif)
+
 
