@@ -18,7 +18,7 @@ while ( start_ea < end_ea ) {
 
     if (flags != 0) {
 
-      if (flags & FF_ASCI) {
+      if ((flags & FF_ASCI) == FF_ASCI) {
         // resolve comment as string
 
         flags = GetStringType(rets);
